@@ -2,7 +2,6 @@
 from sys import platform as _platform
 from os import environ
 
-from pync import Notifier
 from flask import Flask, request
 from flask_socketio import SocketIO
 
